@@ -92,7 +92,7 @@
               </a>
             </li>
             <li class="nav-item">
-              <a href="javascript:void(0)" class="nav-link">
+              <a href="{% url 'app:register' %}" class="nav-link">
                 회원가입
               </a>
             </li>
@@ -100,7 +100,7 @@
           </ul>
           <ul class="nav">
             <li class="nav-item">
-              <a class="nav-link nav_btn" href="javascript:void(0)">HOME</a>
+              <a class="nav-link nav_btn" href="{% url 'app:index' %}">HOME</a>
             </li>
             <li class="nav-item">
               <a class="nav-link nav_btn" href="javascript:void(0)">고객센터</a>
@@ -117,7 +117,7 @@
           <div class="offcanvas-body">
             <ul class="list-group list-group-flush">
               <li class="list-group-item ">
-                <a class="href_main" href="javascript:void(0)">HOME</a>
+                <a class="href_main" href="{% url 'app:index' %}">HOME</a>
               </li>
               <li class="list-group-item">
                 <a class="href_main" href="javascript:void(0)">고객센터</a>
@@ -134,7 +134,7 @@
                 <a class="href_main dx-13-f" href="{% url 'app:login' %}">로그인</a>
               </li>
               <li class="list-group-item">
-                <a class="href_main dx-13-f" href="#">회원가입</a>
+                <a class="href_main dx-13-f" href="{% url 'app:register' %}">회원가입</a>
               </li>
               {% endif %}
             </ul>

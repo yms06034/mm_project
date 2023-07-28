@@ -69,13 +69,13 @@ Login
 
     <div class="login-menu text-center mx-auto">
       <div class="col-lg-4 fs-8 float-start">
-        <a class="text-dark" href="registration.html">회원가입</a>
+        <a class="text-dark" href="{% url 'app:register' %}">회원가입</a>
       </div>
       <div class="line-grey col-lg-4 fs-8 float-start">
-        <a class="text-dark" href="find_id.html">아이디 찾기</a>
+        <a class="text-dark" href="{% url 'app:find_id' %}">아이디 찾기</a>
       </div>
       <div class="line-grey col-lg-4 fs-8 float-start">
-        <a class="text-dark" href="find_pwd.html">비밀번호 찾기</a>
+        <a class="text-dark" href="{% url 'app:find_pwd' %}">비밀번호 찾기</a>
       </div>
     </div>
   </div>

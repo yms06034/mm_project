@@ -22,3 +22,12 @@ def index(request):
 
 def login(request):
     return render(request, 'auth/login.html')
+
+def find_id(request):
+    return render(request, 'auth/find_id.html')
+
+def find_pwd(request):
+    return render(request, 'auth/find_pwd.html')
+
+def register(request):
+    return render(request, 'auth/registration.html')
