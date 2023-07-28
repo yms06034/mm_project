@@ -5,4 +5,5 @@ app_name='app'
 
 urlpatterns = [
     path("", v.index, name='index'),
+    path("", v.login, name='login'),
 ]
