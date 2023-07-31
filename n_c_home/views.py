@@ -31,3 +31,6 @@ def find_pwd(request):
 
 def register(request):
     return render(request, 'auth/registration.html')
+
+def cs_customer(request):
+    return render(request, 'customerService/cs_main.html')
